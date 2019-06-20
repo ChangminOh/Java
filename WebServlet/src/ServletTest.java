@@ -1,7 +1,10 @@
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.*;
 import java.util.Calendar;
+
+@WebServlet(urlPatterns="/superman")
 
 public class ServletTest extends HttpServlet{
  public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException{
