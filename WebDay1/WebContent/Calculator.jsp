@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- HTML 주석이야... -->
-<form name = "cal" action="/WebServlet/cals"  method = "post" > 
+<form name = "cal" action="/WebDay1/cals"  method = "post" > 
 
 	<input type = "text" NAME="num1" width="200" size="5">
 	<select NAME="op">
